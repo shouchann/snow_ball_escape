@@ -15,10 +15,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
     <title>呪われた山小屋からの脱出</title>
 </head>
+<header><a href="./index.html">トップページへもどる</a></header>
 <body>
     <div class="title"><h1>そうさせつめい</h1></div>
-    <img class="snowman" src="./img/snowman.png" alt="">
-    <div class="textbox">
+    <a><img class="snowman" id="img_click" src="./img/snowman.png" alt="" target="./snowman_des.html" onclick="disp('./snowman_des.html')"></a>
+    <div class="textbox" id="text">
         <p>このような文が表示されます</p>
     </div>
+    <script>
+        document.getElementById("img_click").onclick = function() {
+            document.getElementById("text").innerHTML = '<font size="5">異様に生暖かい...それになぜ溶けないんだ..?</font>';
+        };
+    </script>
 </body>
