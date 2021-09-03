@@ -18,13 +18,29 @@
 <header><a href="./index.html">トップページへもどる</a></header>
 <body>
     <div class="title"><h1>そうさせつめい</h1></div>
-    <a><img class="snowman" id="img_click" src="./img/snowman.png" alt="" target="./snowman_des.html" onclick="disp('./snowman_des.html')"></a>
-    <div class="textbox" id="text">
-        <p>このような文が表示されます</p>
+    <div class="ray">
+        <div class="rule"></div>
+        <div class="quiz_tem"></div>
     </div>
-    <script>
-        document.getElementById("img_click").onclick = function() {
-            document.getElementById("text").innerHTML = '<font size="5">異様に生暖かい...それになぜ溶けないんだ..?</font>';
-        };
+    <form id="form1" action="#">
+        <div class="inline">
+            <input type="text" class="box" id="input-message">
+            <p>が犯人だ！！！</p>
+        </div>
+        <input type="button" onclick="check()" value="回答">
+        
+    </form>
+      <script>
+
+      </script>
+      <script language="javascript" type="text/javascript">
+        const check = () => {
+          const textbox = document.getElementById("input-message");
+          const iV = textbox.value;
+
+          if (iV == "A"){
+              
+          }
+        }
     </script>
 </body>

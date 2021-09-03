@@ -1,7 +1,4 @@
 body{
-    background-color: #330033;
-    background-image: url(./img/living.png);
-    background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
     font-family: 'Yomogi', cursive;
@@ -40,6 +37,13 @@ img.snowman{
 .textbox p{
     font-size: 30px;
 }
+.textbox span{
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    font-size: 20px;
+    text-align: end;
+}
 #text.textbox{
     font-size: 20px;
 }
@@ -60,4 +64,36 @@ header a{
 header a:hover{
     color: #800000;
     transition: .2s;
+}
+.ray{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rule{
+    height: 20em;
+    width: 30%;
+    border:5px #f0f0f0 solid;
+    background-color: #202020;
+    margin-right: 3em;
+}
+.quiz_tem{
+    margin-left: 3em;
+    height: 20em;
+    width: 50%;
+    border:5px #f0f0f0 solid;
+    background-color: #202020;
+}
+.inline{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+.inline p{
+    font-size: 50px;
+}
+input.box{
+    width: 200px;
+    height: 200px;
 }
