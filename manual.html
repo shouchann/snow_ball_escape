@@ -23,24 +23,14 @@
         <div class="quiz_tem"></div>
     </div>
     <form id="form1" action="#">
-        <div class="inline">
+        <div class="inline" id="cl_none">
             <input type="text" class="box" id="input-message">
             <p>が犯人だ！！！</p>
         </div>
-        <input type="button" onclick="check()" value="回答">
+        <p id="value"></p>
+        <input id="value_button" type="button" onclick="check()" value="回答">
+        <input id="re_button" type="button" onclick="restart()" value="もう一度">
         
     </form>
-      <script>
-
-      </script>
-      <script language="javascript" type="text/javascript">
-        const check = () => {
-          const textbox = document.getElementById("input-message");
-          const iV = textbox.value;
-
-          if (iV == "A"){
-              
-          }
-        }
-    </script>
+    <script src="style.js"></script>
 </body>

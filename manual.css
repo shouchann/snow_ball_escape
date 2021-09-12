@@ -97,3 +97,7 @@ input.box{
     width: 200px;
     height: 200px;
 }
+#value{
+    font-size: 60px;
+    text-align: center;
+}
