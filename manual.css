@@ -1,3 +1,6 @@
+*{
+    list-style: none;
+}
 body{
     background-repeat: no-repeat;
     overflow: hidden;
@@ -81,10 +84,22 @@ header a:hover{
     width: 60%;
     border:5px #f0f0f0 solid;
 }
+.rule p{
+    text-align: center;
+    height: 11em;
+    width: 100%;
+    border:5px #f0f0f0 solid;
+}
 .quiz_tem img{
     margin: 0 auto;
     height: auto;
     width: 70%;
+    border:5px #f0f0f0 solid;
+}
+.quiz_tem ul{
+    margin: 0 auto;
+    height: 11em;
+    width: 100%;
     border:5px #f0f0f0 solid;
 }
 .inline{
@@ -97,8 +112,8 @@ header a:hover{
     font-size: 50px;
 }
 input.box{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 input.box_1{
     width: 80%;
