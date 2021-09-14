@@ -9,6 +9,7 @@ document.getElementById("s_text_3").onclick = function(){
     document.getElementById("q_go_1").style.display = "block"
     }
 
+    document.getElementById("game_start").style.display = "none"
 function check(){
     const input_1 = document.getElementById("input-message");
     const input_value = input_1.value;
