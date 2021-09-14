@@ -25,6 +25,7 @@ body,html{
 a#q_go_1{
     position: relative;
     margin: 0 auto;
+    margin-top: -5em;
     z-index: 23;
     width: 80%;
     top: 30%;
@@ -147,6 +148,8 @@ input.box_1{
     flex-direction: column;
 }
 .search{
+    margin: 2em;
+    margin-top: 10em;
     z-index: 23;
     text-align: center;
     color: #f0f0f0;
