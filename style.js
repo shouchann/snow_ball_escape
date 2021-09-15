@@ -1,38 +1,44 @@
-document.getElementById("s_text_1").onclick = function(){
-    document.getElementById("textbox_1").innerHTML = "見た目は普通の雪だるま…だ"
+document.getElementById("bg_1").onclick = function(){
+    document.getElementById("bg_1").style.display = "none";
+    document.getElementById("bg_2").style.display = "block";
 }
-document.getElementById("s_text_2").onclick = function(){
-    document.getElementById("textbox_1").innerHTML = "山小屋の外観の割にきちんと清掃がされておりまるで新品のようだ。"
+document.getElementById("bg_2").onclick = function(){
+    document.getElementById("bg_2").style.display = "none";
+    document.getElementById("bg_3").style.display = "block";
 }
-document.getElementById("s_text_3").onclick = function(){
-    document.getElementById("textbox_1").innerHTML = "箱の上にクロスワードが書いてあった！"
-    document.getElementById("q_go_1").style.display = "block"
-    }
-
-    document.getElementById("game_start").style.display = "none"
-function check(){
-    const input_1 = document.getElementById("input-message");
-    const input_value = input_1.value;
-    let v_1 = "A";
-    if (input_value == v_1){
-        document.getElementById("cl_none").style.display = "none";
-        document.getElementById("value").innerHTML = "正解！";
-        document.getElementById("game_start").style.display = "block"
-    }else{
-        document.getElementById("value").innerHTML = "不正解...もう一度考えてみよう";
-    }
+document.getElementById("bg_3").onclick = function(){
+    document.getElementById("bg_3").style.display = "none";
+    document.getElementById("bg_4").style.display = "block";
 }
-
-function check_1(){
-    const input_1 = document.getElementById("input-message");
-    const input_value = input_1.value;
-    let v_1 = "ゆきだるま";
-    if (input_value == v_1){
-        document.getElementById("value").innerHTML = "正解！";
-        document.getElementById("room2").style.display = "block";
-    }else{
-        document.getElementById("value").innerHTML = "不正解...もう一度考えてみよう";
-    }
+document.getElementById("bg_4").onclick = function(){
+    document.getElementById("bg_4").style.display = "none";
+    document.getElementById("bg_5").style.display = "block";
 }
-
-
+document.getElementById("bg_5").onclick = function(){
+    document.getElementById("bg_5").style.display = "none";
+    document.getElementById("bg_6").style.display = "block";
+}
+document.getElementById("bg_6").onclick = function(){
+    document.getElementById("bg_6").style.display = "none";
+    document.getElementById("bg_7").style.display = "block";
+}
+document.getElementById("bg_7").onclick = function(){
+    document.getElementById("bg_7").style.display = "none";
+    document.getElementById("bg_8").style.display = "block";
+}
+document.getElementById("bg_8").onclick = function(){
+    document.getElementById("bg_8").style.display = "none";
+    document.getElementById("bg_9").style.display = "block";
+}
+document.getElementById("bg_9").onclick = function(){
+    document.getElementById("bg_9").style.display = "none";
+    document.getElementById("bg_10").style.display = "block";
+}
+document.getElementById("bg_10").onclick = function(){
+    document.getElementById("bg_10").style.display = "none";
+    document.getElementById("bg_11").style.display = "block";
+}
+document.getElementById("bg_11").onclick = function(){
+    document.getElementById("bg_11").style.display = "none";
+    
+}

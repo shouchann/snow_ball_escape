@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="manual.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+    <title>呪われた山小屋からの脱出</title>
+</head>
+<body>
+    <h3 class="click" id="cl_move">クリックで進みます</h3>
+    <img class="bg" id="bg_1" src="./img/gyakutai_1.jpg" alt="" style="display: block;">
+    <img class="bg" id="bg_2" src="./img/gyakutai_2.jpg" alt="" style="display: none;">
+    <img class="bg" id="bg_3" src="./img/snow_1.png" alt="" style="display: none;">
+    <img class="bg" id="bg_4" src="./img/snow_2.png" alt="" style="display: none;">
+    <img class="bg" id="bg_5" src="./img/snow_3.png" alt="" style="display: none;">
+    <img class="bg" id="bg_6" src="./img/snow_4.png" alt="" style="display: none;">
+    <img class="bg" id="bg_7" src="./img/koya_1.png" alt="" style="display: none;">
+    <img class="bg" id="bg_8" src="./img/koya_2.png" alt="" style="display: none;">
+    <img class="bg" id="bg_9" src="./img/koya_3.png" alt="" style="display: none;">
+    <img class="bg" id="bg_10" src="./img/koya_4.png" alt="" style="display: none;">
+    <img class="bg" id="bg_11" src="./img/d3oe9-giyye.png" alt="" style="display: none;">
+    <div class="search_list">
+        <p class="s_i" id="friend">再度友人を調べる</p>
+        <p class="s_i" id="sofa">ソファーを調べる</p>
+        <p class="s_i" id="mis_box">謎の箱を調べる</p>
+    </div>
+    <form id="form1" action="#" style="display: none;">
+        <div class="inline" id="cl_none">
+            <input type="text" class="box" id="input-message"placeholder="答えを入力">
+            <p>が犯人だ！！！</p>
+        </div>
+        <p id="value"></p>
+        <input id="value_button" type="button" onclick="check()" value="回答">
+    </form>
+    <script src="style.js"></script>
+</body>
