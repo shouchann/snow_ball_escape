@@ -39,6 +39,15 @@ document.getElementById("bg_10").onclick = function(){
     document.getElementById("bg_11").style.display = "block";
 }
 document.getElementById("bg_11").onclick = function(){
-    document.getElementById("bg_11").style.display = "none";
-    
+    document.getElementById("s_l").style.display = "flex";
 }
+document.getElementById("friend").onclick = function(){
+    document.getElementById("").style.display = "block";
+}
+document.getElementById("sofa").onclick = function(){
+    document.getElementById("s_l").style.display = "flex";
+}
+document.getElementById("mis_box").onclick = function(){
+    document.getElementById("s_l").style.display = "flex";
+}
+
