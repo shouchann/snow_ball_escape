@@ -44,3 +44,26 @@ h3.click{
     background-color: #191919;
     border: 3px #f0f0f0 solid;
 }
+.a_img{
+    width: 64%;
+    height: auto;
+}
+.b_img{
+    width: 35%;
+    height: auto;
+}
+.inline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+input.box{
+    width: 50%;
+    height: 4em;
+}
+input.button{
+    margin-top: 2em;
+    width: 20%;
+    height: 3em;
+}

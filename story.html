@@ -50,18 +50,22 @@
     <img class="bg" id="bg_31" src="./img/15.png" alt="" style="display: none;">
     <img class="bg" id="bg_32" src="./img/16.png" alt="" style="display: none;">
     <img class="bg" id="bg_33" src="./img/17.png" alt="" style="display: none;">
+    
     <div class="search_list" id="s_l" style="display: none;">
         <p class="s_i" id="friend">再度友人を調べる</p>
         <p class="s_i" id="sofa">ソファーを調べる</p>
         <p class="s_i" id="mis_box">謎の箱を調べる</p>
     </div>
     <form id="form1" action="#" style="display: none;">
+        <div class="q_img">
+            <img class="a_img " src="./img/rule_1.png" alt="">
+            <img class="b_img" src="./img/q_1.png" alt="">
+        </div>
         <div class="inline" id="cl_none">
             <input type="text" class="box" id="input-message"placeholder="答えを入力">
-            <p>が犯人だ！！！</p>
+            <p id="value"></p>
+            <input class="button" id="value_button" type="button" onclick="check()" value="回答">
         </div>
-        <p id="value"></p>
-        <input id="value_button" type="button" onclick="check()" value="回答">
     </form>
     <script src="style.js"></script>
 </body>

@@ -130,9 +130,20 @@ document.getElementById("bg_32").onclick = function(){
     document.getElementById("bg_33").style.display = "block";
 }
 document.getElementById("mis_box").onclick = function(){
-    document.getElementById("bg_29").style.display = "block";
+    document.getElementById("form1").style.display = "block";
     document.getElementById("bg_30").style.display = "none";
     document.getElementById("s_l").style.display = "none";
+}
+function check(){
+    const input_1 = document.getElementById("input-message");
+    const input_value = input_1.value;
+    let v_1 = "ゆきだるま";
+    if (input_value == v_1){
+        document.getElementById("bg_29").style.display = "block";
+        document.getElementById("s_l").style.display = "none";
+    }else{
+        document.getElementById("value").innerHTML = "不正解...もう一度考えてみよう";
+    }
 }
 
 
