@@ -109,7 +109,7 @@ document.getElementById("bg_28").onclick = function(){
     document.getElementById("s_l").style.display = "flex";
 }
 document.getElementById("friend").onclick = function(){
-    document.getElementById("bg_31").style.display = "block";
+    document.getElementById("bg_32").style.display = "block";
     document.getElementById("s_l").style.display = "none";
 }
 document.getElementById("bg_31").onclick = function(){
@@ -122,7 +122,7 @@ document.getElementById("bg_33").onclick = function(){
     document.getElementById("s_l").style.display = "flex";
 }
 document.getElementById("sofa").onclick = function(){
-    document.getElementById("bg_32").style.display = "block";
+    document.getElementById("bg_31").style.display = "block";
     document.getElementById("s_l").style.display = "none";
 }
 document.getElementById("bg_32").onclick = function(){
