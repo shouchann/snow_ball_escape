@@ -341,6 +341,10 @@ document.getElementById("bg_67").onclick = function(){
     document.getElementById("bg_68").style.display = "block";
 }
 document.getElementById("bg_68").onclick = function(){
+    document.getElementById("bg_68").style.display = "none";
+    document.getElementById("bg_69").style.display = "block";
+}
+document.getElementById("bg_69").onclick = function(){
     document.getElementById("bg_69").style.display = "none";
     document.getElementById("bg_70").style.display = "block";
 }
@@ -411,14 +415,120 @@ function check3(){
     let v_2 = "ゆきだるまはあいしてほしい";
     if (input_value == v_1){
         document.getElementById("bg_85").style.display = "block";
-        document.getElementById("s_l_1").style.display = "none";
         document.getElementById("form3").style.display = "none";
     }else 
         if(input_value == v_2){
-            document.getElementById("bg_85").style.display = "block";
-            document.getElementById("s_l_1").style.display = "none";
+            document.getElementById("bg_98").style.display = "block";
             document.getElementById("form3").style.display = "none";
     }else{
         document.getElementById("value").innerHTML = "不正解...もう一度考えてみよう";
     }
+}
+document.getElementById("bg_85").onclick = function(){
+    document.getElementById("bg_85").style.display = "none";
+    document.getElementById("bg_86").style.display = "block";
+}
+document.getElementById("bg_86").onclick = function(){
+    document.getElementById("bg_86").style.display = "none";
+    document.getElementById("bg_87").style.display = "block";
+}
+document.getElementById("bg_87").onclick = function(){
+    document.getElementById("bg_87").style.display = "none";
+    document.getElementById("bg_88").style.display = "block";
+}
+document.getElementById("bg_88").onclick = function(){
+    document.getElementById("bg_88").style.display = "none";
+    document.getElementById("bg_89").style.display = "block";
+}
+document.getElementById("bg_89").onclick = function(){
+    document.getElementById("bg_89").style.display = "none";
+    document.getElementById("bg_90").style.display = "block";
+}
+document.getElementById("bg_90").onclick = function(){
+    document.getElementById("bg_90").style.display = "none";
+    document.getElementById("bg_91").style.display = "block";
+}
+document.getElementById("bg_91").onclick = function(){
+    document.getElementById("bg_91").style.display = "none";
+    document.getElementById("bg_92").style.display = "block";
+}
+document.getElementById("bg_92").onclick = function(){
+    document.getElementById("bg_92").style.display = "none";
+    document.getElementById("bg_93").style.display = "block";
+}
+document.getElementById("bg_93").onclick = function(){
+    document.getElementById("bg_93").style.display = "none";
+    document.getElementById("bg_94").style.display = "block";
+}
+document.getElementById("bg_94").onclick = function(){
+    document.getElementById("bg_94").style.display = "none";
+    document.getElementById("bg_95").style.display = "block";
+}
+document.getElementById("bg_95").onclick = function(){
+    document.getElementById("bg_95").style.display = "none";
+    document.getElementById("bg_96").style.display = "block";
+}
+document.getElementById("bg_96").onclick = function(){
+    document.getElementById("bg_96").style.display = "none";
+    document.getElementById("bg_97").style.display = "block";
+}
+document.getElementById("bg_98").onclick = function(){
+    document.getElementById("bg_98").style.display = "none";
+    document.getElementById("bg_99").style.display = "block";
+}
+document.getElementById("bg_99").onclick = function(){
+    document.getElementById("bg_99").style.display = "none";
+    document.getElementById("bg_100").style.display = "block";
+}
+document.getElementById("bg_100").onclick = function(){
+    document.getElementById("bg_100").style.display = "none";
+    document.getElementById("bg_101").style.display = "block";
+}
+document.getElementById("bg_101").onclick = function(){
+    document.getElementById("bg_101").style.display = "none";
+    document.getElementById("bg_102").style.display = "block";
+}
+document.getElementById("bg_102").onclick = function(){
+    document.getElementById("bg_102").style.display = "none";
+    document.getElementById("bg_103").style.display = "block";
+}
+document.getElementById("bg_103").onclick = function(){
+    document.getElementById("bg_103").style.display = "none";
+    document.getElementById("bg_104").style.display = "block";
+}
+document.getElementById("bg_104").onclick = function(){
+    document.getElementById("bg_104").style.display = "none";
+    document.getElementById("bg_105").style.display = "block";
+}
+document.getElementById("bg_105").onclick = function(){
+    document.getElementById("bg_105").style.display = "none";
+    document.getElementById("bg_106").style.display = "block";
+}
+document.getElementById("bg_106").onclick = function(){
+    document.getElementById("bg_106").style.display = "none";
+    document.getElementById("bg_107").style.display = "block";
+}
+document.getElementById("bg_107").onclick = function(){
+    document.getElementById("bg_107").style.display = "none";
+    document.getElementById("bg_108").style.display = "block";
+}
+document.getElementById("bg_108").onclick = function(){
+    document.getElementById("bg_108").style.display = "none";
+    document.getElementById("bg_109").style.display = "block";
+}
+document.getElementById("bg_109").onclick = function(){
+    document.getElementById("bg_109").style.display = "none";
+    document.getElementById("bg_110").style.display = "block";
+}
+document.getElementById("bg_110").onclick = function(){
+    document.getElementById("bg_110").style.display = "none";
+    document.getElementById("bg_111").style.display = "block";
+}
+document.getElementById("bg_111").onclick = function(){
+    document.getElementById("bg_111").style.display = "none";
+    document.getElementById("bg_112").style.display = "block";
+}
+document.getElementById("bg_112").onclick = function(){
+    document.getElementById("bg_112").style.display = "none";
+    document.getElementById("bg_113").style.display = "block";
 }
