@@ -27,9 +27,17 @@ h3.click{
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     z-index: 2;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#s_l_1{
+    flex-wrap: wrap;
+    margin-top: -11em;
+}
+#s_l_1 > .s_i{
+    width: calc(100%/3);
 }
 .s_i{
     margin-top: 10em;
@@ -59,11 +67,23 @@ h3.click{
     flex-direction: column;
 }
 input.box{
-    width: 50%;
+    width: 400px;
     height: 4em;
 }
 input.button{
     margin-top: 2em;
     width: 20%;
     height: 3em;
+}
+.q_img_1{
+    width: 80%;
+}
+#form2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.q_img_2{
+    width: 100%;
 }

@@ -36,9 +36,12 @@ document.getElementById("bg_9").onclick = function(){
 }
 document.getElementById("bg_10").onclick = function(){
     document.getElementById("bg_10").style.display = "none";
+    document.getElementById("bg_11").style.display = "block";
+}
+document.getElementById("bg_11").onclick = function(){
+    document.getElementById("bg_11").style.display = "none";
     document.getElementById("bg_12").style.display = "block";
 }
-
 document.getElementById("bg_12").onclick = function(){
     document.getElementById("bg_12").style.display = "none";
     document.getElementById("bg_13").style.display = "block";
@@ -130,9 +133,13 @@ document.getElementById("bg_32").onclick = function(){
     document.getElementById("bg_33").style.display = "block";
 }
 document.getElementById("mis_box").onclick = function(){
-    document.getElementById("form1").style.display = "block";
     document.getElementById("bg_30").style.display = "none";
+    document.getElementById("mis_value").style.display = "block";
     document.getElementById("s_l").style.display = "none";
+}
+document.getElementById("mis_value").onclick = function(){
+    document.getElementById("mis_value").style.display = "none"
+    document.getElementById("form1").style.display = "block";
 }
 function check(){
     const input_1 = document.getElementById("input-message");
@@ -147,6 +154,15 @@ function check(){
 }
 document.getElementById("bg_29").onclick = function(){
     document.getElementById("bg_29").style.display = "none";
+    document.getElementById("form1").style.display = "none";
+    document.getElementById("2_room").style.display = "block";
+}
+document.getElementById("2_room").onclick = function(){
+    document.getElementById("2_room").style.display = "none";
+    document.getElementById("bg_34").style.display = "block";
+}
+document.getElementById("bg_34").onclick = function(){
+    document.getElementById("bg_34").style.display = "none";
     document.getElementById("bg_35").style.display = "block";
 }
 document.getElementById("bg_35").onclick = function(){
@@ -155,6 +171,11 @@ document.getElementById("bg_35").onclick = function(){
 }
 document.getElementById("bg_36").onclick = function(){
     document.getElementById("bg_36").style.display = "none";
+    document.getElementById("syosai_bg").style.display = "block";
+    document.getElementById("s_l_1").style.display = "flex";
+}
+document.getElementById("memo").onclick = function(){
+    document.getElementById("s_l_1").style.display = "none";
     document.getElementById("bg_37").style.display = "block";
 }
 document.getElementById("bg_37").onclick = function(){
@@ -175,17 +196,25 @@ document.getElementById("bg_40").onclick = function(){
 }
 document.getElementById("bg_41").onclick = function(){
     document.getElementById("bg_41").style.display = "none";
+    document.getElementById("syosai_bg").style.display = "block";
+    document.getElementById("s_l_1").style.display = "flex";
+}
+document.getElementById("Watch").onclick = function(){
+    document.getElementById("s_l_1").style.display = "none";
     document.getElementById("bg_42").style.display = "block";
 }
 document.getElementById("bg_42").onclick = function(){
     document.getElementById("bg_42").style.display = "none";
+    document.getElementById("s_l_1").style.display = "flex";
+}
+document.getElementById("mother").onclick = function(){
+    document.getElementById("s_l_1").style.display = "none";
     document.getElementById("bg_43").style.display = "block";
 }
 document.getElementById("bg_43").onclick = function(){
     document.getElementById("bg_43").style.display = "none";
     document.getElementById("bg_44").style.display = "block";
 }
-
 document.getElementById("bg_44").onclick = function(){
     document.getElementById("bg_44").style.display = "none";
     document.getElementById("bg_45").style.display = "block";
@@ -220,17 +249,33 @@ document.getElementById("bg_51").onclick = function(){
 }
 document.getElementById("bg_52").onclick = function(){
     document.getElementById("bg_52").style.display = "none";
-    document.getElementById("bg_53").style.display = "block";
+    document.getElementById("s_l_1").style.display = "flex";
+}
+document.getElementById("mis_box_1").onclick = function(){
+    document.getElementById("s_l_1").style.display = "none";
+    document.getElementById("bg_53").style.display = "flex";
 }
 document.getElementById("bg_53").onclick = function(){
     document.getElementById("bg_53").style.display = "none";
-    document.getElementById("bg_54").style.display = "block";
+    document.getElementById("syosai_bg").style.display = "none";
+    document.getElementById("form2").style.display = "flex";
 }
-document.getElementById("bg_54").onclick = function(){
-    document.getElementById("bg_54").style.display = "none";
-    document.getElementById("form2").style.display = "block";
+function check1(){
+    const input_1 = document.getElementById("input-message1");
+    const input_value = input_1.value;
+    let v_1 = "1488";
+    if (input_value == v_1){
+        document.getElementById("3_room").style.display = "block";
+        document.getElementById("s_l_1").style.display = "none";
+        document.getElementById("form2").style.display = "none";
+    }else{
+        document.getElementById("value").innerHTML = "不正解...もう一度考えてみよう";
+    }
 }
-
+document.getElementById("3_room").onclick = function(){
+    document.getElementById("3_room").style.display = "none";
+    document.getElementById("bg_55").style.display = "block";
+}
 document.getElementById("bg_55").onclick = function(){
     document.getElementById("bg_55").style.display = "none";
     document.getElementById("bg_56").style.display = "block";
@@ -251,5 +296,129 @@ document.getElementById("bg_59").onclick = function(){
     document.getElementById("bg_59").style.display = "none";
     document.getElementById("bg_60").style.display = "block";
 }
-
-
+document.getElementById("bg_60").onclick = function(){
+    document.getElementById("bg_60").style.display = "none";
+    document.getElementById("bg_61").style.display = "block";
+}
+document.getElementById("bg_61").onclick = function(){
+    document.getElementById("bg_61").style.display = "none";
+    document.getElementById("bg_62").style.display = "block";
+}
+document.getElementById("bg_62").onclick = function(){
+    document.getElementById("bg_62").style.display = "none";
+    document.getElementById("bg_63").style.display = "block";
+}
+document.getElementById("bg_63").onclick = function(){
+    document.getElementById("bg_63").style.display = "none";
+    document.getElementById("bg_64").style.display = "block";
+}
+document.getElementById("bg_64").onclick = function(){
+    document.getElementById("bg_64").style.display = "none";
+    document.getElementById("bg_65").style.display = "block";
+}
+document.getElementById("bg_65").onclick = function(){
+    document.getElementById("bg_65").style.display = "none";
+    document.getElementById("bg_66").style.display = "block";
+}
+document.getElementById("bg_66").onclick = function(){
+    document.getElementById("bg_66").style.display = "none";
+    document.getElementById("form3").style.display = "block";
+}
+function check2(){
+    const input_1 = document.getElementById("input-message2");
+    const input_value = input_1.value;
+    let v_1 = "しほ";
+    if (input_value == v_1){
+        document.getElementById("bg_67").style.display = "block";
+        document.getElementById("s_l_1").style.display = "none";
+        document.getElementById("form3").style.display = "none";
+    }else{
+        document.getElementById("value").innerHTML = "不正解...もう一度考えてみよう";
+    }
+}
+document.getElementById("bg_67").onclick = function(){
+    document.getElementById("bg_67").style.display = "none";
+    document.getElementById("bg_68").style.display = "block";
+}
+document.getElementById("bg_68").onclick = function(){
+    document.getElementById("bg_69").style.display = "none";
+    document.getElementById("bg_70").style.display = "block";
+}
+document.getElementById("bg_70").onclick = function(){
+    document.getElementById("bg_70").style.display = "none";
+    document.getElementById("bg_71").style.display = "block";
+}
+document.getElementById("bg_71").onclick = function(){
+    document.getElementById("bg_71").style.display = "none";
+    document.getElementById("bg_72").style.display = "block";
+}
+document.getElementById("bg_72").onclick = function(){
+    document.getElementById("bg_72").style.display = "none";
+    document.getElementById("bg_73").style.display = "block";
+}
+document.getElementById("bg_73").onclick = function(){
+    document.getElementById("bg_73").style.display = "none";
+    document.getElementById("bg_74").style.display = "block";
+}
+document.getElementById("bg_74").onclick = function(){
+    document.getElementById("bg_74").style.display = "none";
+    document.getElementById("bg_75").style.display = "block";
+}
+document.getElementById("bg_75").onclick = function(){
+    document.getElementById("bg_75").style.display = "none";
+    document.getElementById("4_room").style.display = "block";
+}
+document.getElementById("4_room").onclick = function(){
+    document.getElementById("4_room").style.display = "none";
+    document.getElementById("bg_76").style.display = "block";
+}
+document.getElementById("bg_76").onclick = function(){
+    document.getElementById("bg_76").style.display = "none";
+    document.getElementById("bg_77").style.display = "block";
+}
+document.getElementById("bg_77").onclick = function(){
+    document.getElementById("bg_77").style.display = "none";
+    document.getElementById("bg_78").style.display = "block";
+}
+document.getElementById("bg_78").onclick = function(){
+    document.getElementById("bg_78").style.display = "none";
+    document.getElementById("bg_79").style.display = "block";
+}
+document.getElementById("bg_79").onclick = function(){
+    document.getElementById("bg_79").style.display = "none";
+    document.getElementById("bg_80").style.display = "block";
+}
+document.getElementById("bg_80").onclick = function(){
+    document.getElementById("bg_80").style.display = "none";
+    document.getElementById("bg_81").style.display = "block";
+}
+document.getElementById("bg_81").onclick = function(){
+    document.getElementById("bg_81").style.display = "none";
+    document.getElementById("bg_82").style.display = "block";
+}
+document.getElementById("bg_82").onclick = function(){
+    document.getElementById("bg_82").style.display = "none";
+    document.getElementById("bg_83").style.display = "block";
+}
+document.getElementById("bg_83").onclick = function(){
+    document.getElementById("bg_83").style.display = "none";
+    document.getElementById("form4").style.display = "block";
+}
+function check3(){
+    const input_1 = document.getElementById("input-message3");
+    const input_value = input_1.value;
+    let v_1 = "ゆきだるまははかいしてほしい";
+    let v_2 = "ゆきだるまはあいしてほしい";
+    if (input_value == v_1){
+        document.getElementById("bg_85").style.display = "block";
+        document.getElementById("s_l_1").style.display = "none";
+        document.getElementById("form3").style.display = "none";
+    }else 
+        if(input_value == v_2){
+            document.getElementById("bg_85").style.display = "block";
+            document.getElementById("s_l_1").style.display = "none";
+            document.getElementById("form3").style.display = "none";
+    }else{
+        document.getElementById("value").innerHTML = "不正解...もう一度考えてみよう";
+    }
+}
