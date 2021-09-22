@@ -476,6 +476,10 @@ document.getElementById("bg_96").onclick = function(){
     document.getElementById("bg_96").style.display = "none";
     document.getElementById("bg_97").style.display = "block";
 }
+document.getElementById("bg_97").onclick = function(){
+    document.getElementById("cl_move").style.display = "none"
+    document.getElementById("title").style.display = "block"
+}
 document.getElementById("bg_98").onclick = function(){
     document.getElementById("bg_98").style.display = "none";
     document.getElementById("bg_99").style.display = "block";

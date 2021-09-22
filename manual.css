@@ -95,3 +95,8 @@ input.button{
 .q_img_3,.q_img_4{
     width: calc(100%/4);
 }
+.kami{
+    width: 42%;
+    height: auto;
+    margin: 0 auto;
+}
