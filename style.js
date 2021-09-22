@@ -366,6 +366,10 @@ document.getElementById("bg_73").onclick = function(){
 }
 document.getElementById("bg_74").onclick = function(){
     document.getElementById("bg_74").style.display = "none";
+    document.getElementById("kami").style.display = "block";
+}
+document.getElementById("kami").onclick = function(){
+    document.getElementById("kami").style.display = "none";
     document.getElementById("bg_75").style.display = "block";
 }
 document.getElementById("bg_75").onclick = function(){
