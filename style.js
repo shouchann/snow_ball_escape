@@ -265,12 +265,16 @@ function check1(){
     const input_value = input_1.value;
     let v_1 = "1488";
     if (input_value == v_1){
-        document.getElementById("3_room").style.display = "block";
+        document.getElementById("s_e").style.display = "block";
         document.getElementById("s_l_1").style.display = "none";
         document.getElementById("form2").style.display = "none";
     }else{
         document.getElementById("value").innerHTML = "不正解...もう一度考えてみよう";
     }
+}
+document.getElementById("s_e").onclick = function(){
+    document.getElementById("s_e").style.display = "none";
+    document.getElementById("3_room").style.display = "block";
 }
 document.getElementById("3_room").onclick = function(){
     document.getElementById("3_room").style.display = "none";
